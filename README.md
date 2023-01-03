@@ -1,7 +1,7 @@
 # Curso de Git
 #### Anotações do treinamento [Curso de Git](https://www.youtube.com/@bosontreinamentos), ministrado por [Fábio dos Reis](https://github.com/bosontreinamentos).
 
-- O que é um Sistema de Controle de Versão
+- [O que é um Sistema de Controle de Versão](https://github.com/juscelinodjj/curso-de-git/blob/main/aulas/o-que-é-um-sistema-de-controle-de-versão.md)
 - Introdução ao Git
 - Como baixar e instalar o Git
 - Comandos iniciais do Git, os três estados
