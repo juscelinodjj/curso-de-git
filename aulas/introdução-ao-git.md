@@ -1,0 +1,63 @@
+# Introdução ao Git
+
+- **O que é Git?**
+  - Sistema de Controle de Versão amplamente utilizado.
+  - Criado por **Linus Torvalds** em 2005 para substituir o *BitKeeper SCM*, que tinha acesso gratuito, mas esse acesso foi removido.
+  - Software livre, distribuído sob a licença *GNU GPL V.2*.
+- **Vantagens do Git**
+  - Permite rastrear alterações com muita facilidade.
+  - Excelente para trabalho em equipe.
+  - Permite fazer revisão em alterações feitas por outros membros.
+  - Sistema de *branching* aprimorado.
+  - *Merging* extremamente simples.
+  - *Stashing* para testes de *features* sem interferir em modificações atuais.
+  - Trabalha com *snapshots*.
+  - Histórico com autenticação criptográfica.
+- **Exemplos de projetos que usam Git**
+  - Android
+  - Debian
+  - Eclipse
+  - Gimp
+  - jQuery
+  - Kernel do Linux
+  - PHP
+  - Reddit
+  - Ruby On Rails
+  - VLC
+- **Sistema de três estados**
+  - Existem três estados nos quais um código pode se encontrar.
+  - Estado Modificado
+    - Snapshot atual no qual o trabalho é feito no momento.
+    - Arquivos no diretório de trabalho.
+  - Estado Preparado
+    - Os arquivos modificados são marcados em sua versão atual, pronta para ser armazenada no branco de dados.
+    - Arquivos no *staging area*.
+  - Estado Consolidado
+    - Dados são salvos no repositório (banco de dados) onde o histórico é armazenado. Este estado é compartilhado.
+    - Arquivos no diretório do Git.
+- **Fluxo dos três estados**
+  - Estado Modificado -> Estado Preparado -> Estado Consolidado
+  - O comando *git status* mostra o estado no qual os arquivos se encontram no momento.
+- **Estado Modificado**
+  - Arquivos adicionados, modificados ou removidos são marcados como modificados.
+  - Indica que um arquivo sofreu alterações.
+  - Indica também que estão diferentes em relação à última versão que está armazenada no banco de dados.
+- **Estado Preparado**
+  - Arquivo é enviado para a área de preparação antes de ser consolidado.
+  - Os arquivos entram nesse estado após uma instrução *git add*.
+  - Assim, se tornam preparados para serem versionados.
+- **Estado Consolidado**
+  - Os arquivos preparados são salvos em definitivo após a execução de uma instrução *git commit*.
+  - Uma nova imagem é salva no histórico, contendo o estado dos arquivos salvos.
+  - Arquivos não podem ser consolidados se ainda estiverem no estado modificado.
+- **Fluxo de operação do Git**
+  - Os arquivos são criados, modificados ou excluídos.
+  - Arquivos que serão inclídos no snapshot são adicionados na área de staging.
+  - Snapshot é criado.
+  - Adicionar modificações ao banco de dados.
+  - Assim, um arquivo vai do estado modificado para *staged* e então para *commited*.
+- **GitHub**
+  - É possível ter um local central para armazenar todo o trabalho realizado nos diversos arquivos pelos membros da equipe de desenvolvimento.
+  - GitHub é um exemplo desse tipo de repositório centralizado.
+  - Não é obrigatorio, porém permite a colaboração de centenas ou milhares de desenvolvedores em um projeto, por meio da internet.
+  - Outro exemplo de serviço de hospedagem de projetos: *Bitbucket*.
