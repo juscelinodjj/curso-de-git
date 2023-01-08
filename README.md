@@ -7,7 +7,7 @@
 - [Comandos iniciais do Git, os três estados](https://github.com/juscelinodjj/curso-de-git/blob/main/aulas/comandos-iniciais-do-git-os-três-estados.md)
 - [Como obter ajuda com comando help](https://github.com/juscelinodjj/curso-de-git/blob/main/aulas/como-obter-ajuda-com-comando-help.md)
 - [Trabalhar com repositórios, comando git init](https://github.com/juscelinodjj/curso-de-git/blob/main/aulas/trabalhar-com-repositórios-comando-git-init.md)
-- Histórico e versões com comandos git log e git show
+- [Histórico e versões com comandos git log e git show](https://github.com/juscelinodjj/curso-de-git/blob/main/aulas/histórico-e-versões-com-comandos-git-log-e-git-show.md)
 - Comparar alterações nos arquivos com git diff
 - Como excluir e restaurar arquivos
 - Como reverter commits com git revert
