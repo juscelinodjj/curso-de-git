@@ -6,7 +6,7 @@
 - [Como baixar e instalar o Git](https://github.com/juscelinodjj/curso-de-git/blob/main/aulas/como-baixar-e-instalar-o-git.md)
 - [Comandos iniciais do Git, os três estados](https://github.com/juscelinodjj/curso-de-git/blob/main/aulas/comandos-iniciais-do-git-os-três-estados.md)
 - [Como obter ajuda com comando help](https://github.com/juscelinodjj/curso-de-git/blob/main/aulas/como-obter-ajuda-com-comando-help.md)
-- Trabalhar com repositórios, comando git init
+- [Trabalhar com repositórios, comando git init](https://github.com/juscelinodjj/curso-de-git/blob/main/aulas/trabalhar-com-repositórios-comando-git-init.md)
 - Histórico e versões com comandos git log e git show
 - Comparar alterações nos arquivos com git diff
 - Como excluir e restaurar arquivos

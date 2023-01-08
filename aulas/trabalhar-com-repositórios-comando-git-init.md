@@ -1,0 +1,46 @@
+# Trabalhar com repositórios, comando git init
+
+- **Repositórios**
+  - Repositório é um local de armazenamento onde o projeto e suas alterações são mantidos.
+  - Na prática, é uma pasta comum no sistema.
+  - Para cada projeto gerenciado pelo Git, um repositório é configurado.
+  - Para cada projeto novo, seguimos os seguintes passos.
+    - Criar um diretório para armazenar o projeto.
+    - Entrar no diretório (opcional).
+    - Inicializar o repositório Git.
+- **Diretórios**
+  - É criado um subdiretório oculto **.git** que guardará os dados de alteração e snapshots.
+  - A área fora do diretório .git é o **diretório de trabalho**, onde ficam armazenados os arquivos que você irá manipular. Ou seja, é a área onde interagimos diretamente com os arquivos do projeto.
+- **Staging Area**
+  - Local para  onde os arquivos vão antes de um snapshot ser criado.
+  - Somente os arquivos da staging area vão para um snapshot.
+  - Selecionamos os arquivos desejados no diretório de trabalho.
+- **Commits**
+  - Snapshot do projeto em um determinado momento, com informações sobre o autor do conteúdo e quem o realizou. (?)
+  - O estado anterior do projeto é denominado "pai". Commits são ligados entre si por conexões pai-filho.
+  - O conjunto de commits relacionados entre si por paternidade é chamado de branch (ramo).
+  - Um commit pode ter dois pais, se for criado pe...[trecho ilegível]... (mescla) de dois branches.
+- **Identificação do Commit**
+  - Identificamos um commit pelo seu nome que é uma *string* de 40 caracteres obtida pelo *hash (SHA 1)* do commit.
+- **Exercício passo a passo**
+  - Criar um novo repositório, de nome exercício01. (iniciar o repositório!)
+  - Criar um arquivo de nome projeto.txt no diretório, e digitar algum texto nele.
+  - Colocar o arquivo na staging area.
+  - Efetuar commit no projeto, acrescentar uma mensagem curta.
+  - Criar dois novos arquivos, de nomes tarefa.txt e pendencias.txt.
+  - Colocá-los na staging area e comitar o projeto.
+  - Renomear o arquivo pendencias.txt para restante.txt.
+  - Adicionar texto ao arquivo tarefa.txt.
+  - Verificar o status do diretório.
+  - Colocar na área de stage os arquivos restante.txt e tarefa.txt.
+  - Tirar o arquivo tarefa.txt da staging area.
+  - Efetuar commit no projeto.
+  - Verificar o status do diretório.
+- **Novo comando apresentado na aula**
+  - Remover da staging area.
+  - ```console
+      git rm --cached [arquivo]
+    ```
+- **Clonagem**
+  - É possível copiar um diretório inteiro, como todo o seu histórico e snapshots, em um processo chamado de "clonagem".
+  - Esse processo será apresentado em uma aula posterior.
