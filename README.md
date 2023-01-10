@@ -9,7 +9,7 @@
 - [Trabalhar com repositórios, comando git init](https://github.com/juscelinodjj/curso-de-git/blob/main/aulas/trabalhar-com-repositórios-comando-git-init.md)
 - [Histórico e versões com comandos git log e git show](https://github.com/juscelinodjj/curso-de-git/blob/main/aulas/histórico-e-versões-com-comandos-git-log-e-git-show.md)
 - [Comparar alterações nos arquivos com git diff](https://github.com/juscelinodjj/curso-de-git/blob/main/aulas/comparar-alterações-nos-arquivos-com-git-diff.md)
-- Como excluir e restaurar arquivos
+- [Como excluir e restaurar arquivos](https://github.com/juscelinodjj/curso-de-git/blob/main/aulas/como-excluir-e-restaurar-arquivos.md)
 - Como reverter commits com git revert
 - Como desfazer mudanças com git reset
 - Ignorar arquivos com arquivo gitignore
