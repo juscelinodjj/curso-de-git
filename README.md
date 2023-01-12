@@ -11,5 +11,5 @@
 - [Comparar alterações nos arquivos com git diff](https://github.com/juscelinodjj/curso-de-git/blob/main/aulas/comparar-alterações-nos-arquivos-com-git-diff.md)
 - [Como excluir e restaurar arquivos](https://github.com/juscelinodjj/curso-de-git/blob/main/aulas/como-excluir-e-restaurar-arquivos.md)
 - [Como reverter commits com git revert](https://github.com/juscelinodjj/curso-de-git/blob/main/aulas/como-reverter-commits-com-git-revert.md)
-- Como desfazer mudanças com git reset
+- [Como desfazer mudanças com git reset](https://github.com/juscelinodjj/curso-de-git/blob/main/aulas/como-desfazer-mudanças-com-git-reset.md)
 - Ignorar arquivos com arquivo gitignore
