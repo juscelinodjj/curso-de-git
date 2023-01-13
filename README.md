@@ -12,4 +12,4 @@
 - [Como excluir e restaurar arquivos](https://github.com/juscelinodjj/curso-de-git/blob/main/aulas/como-excluir-e-restaurar-arquivos.md)
 - [Como reverter commits com git revert](https://github.com/juscelinodjj/curso-de-git/blob/main/aulas/como-reverter-commits-com-git-revert.md)
 - [Como desfazer mudanças com git reset](https://github.com/juscelinodjj/curso-de-git/blob/main/aulas/como-desfazer-mudanças-com-git-reset.md)
-- Ignorar arquivos com arquivo gitignore
+- [Ignorar arquivos com arquivo gitignore](https://github.com/juscelinodjj/curso-de-git/blob/main/aulas/ignorar-arquivos-com-arquivo-gitignore.md)
